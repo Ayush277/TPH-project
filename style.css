@@ -163,14 +163,15 @@ button:hover {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
     
 }
 
 .glitch-image {
     width: 100%;
     animation: glitch 1s infinite;
-    animation-timing-function: ease-in-out
-    
+    animation-timing-function: ease-in-out;
+    z-index: 1;
 }
 
 @keyframes glitch {
